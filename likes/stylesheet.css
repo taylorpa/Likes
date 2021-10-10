@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-color:black;
+    height: 75px;
+}
+
+.title {
+    color: white;
+    font-size: 2.5rem;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f3f3;
+}
+
+.container{
+    margin: 10px auto;
+    width: 700px;
+    height: 960px;
+ 
+}
+
+.bodtitle {
+    text-align: center;  
+    margin: 20px;
+}
+
+.row{
+    display: flex;
+}
+
+.flex-1{
+    flex: 0; 
+}
+
+.flex-1-content{
+    padding: 20px;
+    border: 5px solid black;
+    text-align: center;
+}
+
+.avatar {
+    font-size:18px;
+    font-weight: bold;
+}
+img {
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 25px;
+}
+
+.profilepic, .avatar, .flex-1-h1 {
+    display:flex;
+    padding: 15px;
+    justify-content: center;   
+}
+
+.flex-2{
+    flex: 2;
+    margin-left:25px;
+}
+
+.post{
+    padding:20px;
+    border: 5px solid black;
+   margin-bottom: 25px;
+}
+
+.top-line {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px
+}
+
+.lke-btn {
+    background-color: #ffd966;
+    padding: 5px 10px;
+    border: 2px solid #000;
+    box-shadow: 4px 4px #000;
+    font-size: 1.2rem;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
